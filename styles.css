@@ -1,0 +1,199 @@
+.header {
+  background-image: url("./images/dark-roses.jpg");
+  color: white;
+  max-height: 1450px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header .container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1000px;
+}
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  line-height: 40px;
+}
+
+.hero-secondary-text,
+.header-link-text {
+  font-size: 28px;
+  color: #e5e5eb;
+}
+
+.header-logo-text {
+  font-size: 25px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.header-link-text {
+  align-self: flex-start;
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-one {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+.header-one-two {
+  display: flex;
+  gap: 25px;
+}
+
+.header-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.header-two-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 400px;
+  padding-right: 40px;
+  gap: 10px;
+  margin-top: 35px;
+}
+
+.header-two-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+}
+
+.button-one {
+  background-color: #d86698;
+  color: white;
+  border-radius: 10px;
+  padding: 7px;
+  height: 40px;
+  width: 92px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Info section */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  font-size: 62px;
+  color: #490020;
+  gap: 50px;
+}
+
+.card-outline {
+  width: 125px;
+  height: 125px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.text {
+  font-size: 42px;
+  width: 135px;
+  text-align: center;
+}
+
+/* quote section */
+
+.quote-container {
+  background-color: #d86698;
+  display: flex;
+  justify-content: center;
+  /* height: 400px; */
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.quote {
+  font-size: 56px;
+  font-style: italic;
+  color: #490020;
+
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  gap: 30px;
+}
+
+/* call to action */
+
+.call-to-action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+.call-to-action {
+  background-color: #811745;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: bold;
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.button-two {
+  border: 2px solid white;
+  background-color: #1d000d;
+  color: white;
+  border-radius: 10px;
+  padding: 7px;
+  height: 40px;
+  width: 92px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* footer */
+
+.footer {
+  background-color: #1d000d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  font-size: 25px;
+}
+
+body {
+  font-family: "Yellowtail";
+}
+
+/* Sacramento / Montserrat Light */
+
+/* Yellowtail / Open Sans */
